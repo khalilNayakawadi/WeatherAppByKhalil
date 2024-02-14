@@ -1,6 +1,9 @@
 .mdiv{
-	background: black;
+	background:url("https://www.bing.com/th/id/OGC.00019c70ed73f48d27eb28091e938797?pid=1.7&rurl=https%3a%2f%2fuinona.net%2fwp-content%2fuploads%2fgif_789%2fanimated_0000027626.gif&ehk=svl1Dz2uSfsZWYuWsaljv6HmtBeQXBcKQYRHneNjYw8%3d");
 	display: flex;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
@@ -10,9 +13,9 @@
 }
 
 .weatherdiv{
-	height: 380px;
+	height: 430px;
 	width: 340px;
-	background: white;
+	background: whitesmoke;
 	border-radius: 30px;
 	padding: 20px;
 
@@ -44,6 +47,50 @@
 }
 
 .wimg{
-	height: 40px;
+	height: 30px;
 	width: 40px;
+}
+
+.weatherimg{
+	margin-top: 5px;
+	margin-left: 20px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+}
+
+/*.cn{
+	float: left;
+	font-size: 20px;
+	overflow: hidden;
+	margin-left: 30px;
+	margin-top: 50px;
+}*/
+
+.wtbl{
+	float: left;
+	overflow: hidden;
+	margin-top: 36px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.dayw{
+	float: left;
+	margin-top: 30px;
+	overflow: hidden;
+	height: 150px;
+	width: 23%;
+	margin-left: 5px;
+	background-color: skyblue;
+	border-radius: 20px;
+}
+
+.dwimg{
+	height: 70px;
+	width: 70px;
+}
+
+.dwt{
+	padding: 23px;
 }

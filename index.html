@@ -12,9 +12,42 @@
 		<div class="weatherdiv">
 			<h2 class="heading">Weather Forcast</h2>
 			<form>
-				<input type="text" name="city" placeholder="Enter a city " id="city_name" class="cityfield">
-				<button class="wbtn" onclick="getWeather()"> <img class="wimg" src="https://cdn2.iconfinder.com/data/icons/weather-icons-8/512/day-clear-512.png"> </button>
+				<input type="text" name="city" placeholder="Enter a city " id="city_name" class="cityfield" autofocus>
+				<button type="button" class="wbtn" onclick ="fetchCity()"> <img class="wimg" src="https://cdn2.iconfinder.com/data/icons/weather-icons-8/512/day-clear-512.png"> </button>
 			</form>
+			<div>
+				<img class="weatherimg" src="https://cdn1.iconfinder.com/data/icons/weather-filled-two-color/614/429_-_Sunny-512.png">
+				<div>
+					<table cellpadding="5px" class="wtbl">
+					<tr>
+						<td id="ct">City Name</td>
+						<td id="temp"> 23°C </td>
+					</tr>
+					<tr>
+						<td>WindSpeed</td>
+						<td id="wsp"> Km/hr</td>
+					</tr>
+					</table>
+				</div>
+			</div>
+			<div>
+					<div class="dayw">
+						<img class="dwimg" src="https://cdn1.iconfinder.com/data/icons/weather-filled-two-color/614/429_-_Sunny-512.png">
+						<span class="dwt">23°C</span>
+					</div>
+					<div class="dayw">
+						<img class="dwimg" src="https://cdn1.iconfinder.com/data/icons/weather-filled-two-color/614/429_-_Sunny-512.png">
+						<span class="dwt">23°C</span>
+					</div>
+					<div class="dayw">
+						<img class="dwimg" src="https://cdn1.iconfinder.com/data/icons/weather-filled-two-color/614/429_-_Sunny-512.png">
+						<span class="dwt">23°C</span>
+					</div>
+					<div class="dayw">
+						<img class="dwimg" src="https://cdn1.iconfinder.com/data/icons/weather-filled-two-color/614/429_-_Sunny-512.png">
+						<span class="dwt">23°C</span>
+					</div>
+			</div>
 		</div>
 	</div>
 </body>
