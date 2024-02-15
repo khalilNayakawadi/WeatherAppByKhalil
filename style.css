@@ -1,4 +1,76 @@
+
+-webkit-keyframes tracking-in-expand-fwd-bottom {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-bottom {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+
+
+
 .mdiv{
+	
 	background:url("https://www.bing.com/th/id/OGC.00019c70ed73f48d27eb28091e938797?pid=1.7&rurl=https%3a%2f%2fuinona.net%2fwp-content%2fuploads%2fgif_789%2fanimated_0000027626.gif&ehk=svl1Dz2uSfsZWYuWsaljv6HmtBeQXBcKQYRHneNjYw8%3d");
 	display: flex;
 	background-position: center;
@@ -13,6 +85,8 @@
 }
 
 .weatherdiv{
+	-webkit-animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	height: 430px;
 	width: 340px;
 	background: whitesmoke;
@@ -20,16 +94,18 @@
 	padding: 20px;
 
 }
-.heading{
+.heading {
 	text-align: center;
 	color: royalblue;
 	font-family: arial black;
+	-webkit-animation: tracking-in-expand-fwd-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .wbtn {
 	float: left;
 	overflow: hidden;
-	padding: 5px;
+	padding: 10px;
 	background: lightgray;
 	border: none;
 	padding: px; 
@@ -44,6 +120,7 @@
 	margin-right: 10px;
 	font-size: 18px;
 	font-family: arial black;
+	padding: 2px;
 }
 
 .wimg{
@@ -70,7 +147,7 @@
 .wtbl{
 	float: left;
 	overflow: hidden;
-	margin-top: 36px;
+	margin-top: 30px;
 	margin-left: 20px;
 	font-size: 20px;
 }
@@ -87,10 +164,52 @@
 }
 
 .dwimg{
+	margin-top: 10px;
 	height: 70px;
 	width: 70px;
 }
 
 .dwt{
-	padding: 23px;
+	margin: 25px;
+}
+
+#ct{
+	font-family: Arial black;
+	color: darkorange;
+}
+.day{
+	padding: 20px;
+}
+
+@media(min-width:300px) and(max-width:480px)
+{
+	.maindiv{
+		height: 100Vh;
+		width: 100Vw;
+	}
+
+	.weatherdiv{
+		height: 500px;
+		width: 85Vw;
+	}
+
+	.wtbl{
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.dayw{
+	float: left;
+	margin-top: 30px;
+	overflow: hidden;
+	height: 150px;
+	width: 23%;
+	margin-left: 5px;
+	background-color: skyblue;
+	border-radius: 20px;
+}
+
 }
