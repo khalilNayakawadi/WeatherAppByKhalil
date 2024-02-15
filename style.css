@@ -191,7 +191,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	}
 
 	.weatherdiv{
-		height: 90vh;
+		height: 50wv;
 		width: 90vw;
 	}
 
@@ -200,7 +200,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	overflow: hidden;
 	margin-top: 10px;
 	margin-left: 20px;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 .dayw{
