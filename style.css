@@ -181,7 +181,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	padding: 20px;
 }
 
-@media(min-width:300px) and(max-width:480px)
+@media(min-width:300px) and (max-width:480px)
 {
 	.maindiv{
 		height: 100Vh;
@@ -189,8 +189,8 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	}
 
 	.weatherdiv{
-		height: 500px;
-		width: 85Vw;
+		height: 90vh;
+		width: 90vw;
 	}
 
 	.wtbl{
@@ -206,10 +206,30 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	margin-top: 30px;
 	overflow: hidden;
 	height: 150px;
-	width: 23%;
+	width: 22%;
 	margin-left: 5px;
 	background-color: skyblue;
 	border-radius: 20px;
 }
+
+.weatherimg{
+	margin-top: 5px;
+	margin-left: 20px;
+	height: 70px;
+	float: left;
+	overflow: hidden;
+}
+
+.cityfield{
+	width: 80%;
+	float: left;
+	overflow: hidden;
+	margin-top: 12px;
+	margin-right: 10px;
+	font-size: 18px;
+	font-family: arial black;
+	padding: 2px;
+}
+
 
 }
