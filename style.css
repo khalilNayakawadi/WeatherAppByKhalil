@@ -200,7 +200,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	overflow: hidden;
 	margin-top: 10px;
 	margin-left: 20px;
-	font-size: 14px;
+	font-size: 10px;
 }
 
 .dayw{
@@ -229,7 +229,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 .weatherimg{
 	margin-top: 5px;
 	margin-left: 20px;
-	height: 70px;
+	height: 40px;
 	float: left;
 	overflow: hidden;
 }
