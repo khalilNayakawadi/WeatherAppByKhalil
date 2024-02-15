@@ -181,7 +181,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	padding: 20px;
 }
 
-@media(min-width:300px) and(max-width:480px)
+@media(min-width:300px)and(max-width:480px)
 {
 	.maindiv{
 		height: 100Vh;
@@ -210,6 +210,10 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	margin-left: 5px;
 	background-color: skyblue;
 	border-radius: 20px;
+}
+	.wimg{
+	height: 30px;
+	width: 40px;
 }
 
 }
