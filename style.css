@@ -203,7 +203,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 
 .dayw{
 	float: left;
-	margin-top: 30px;
+	margin-top: 10px;
 	overflow: hidden;
 	height: 150px;
 	width: 23%;
@@ -214,6 +214,15 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	.wimg{
 	height: 30px;
 	width: 40px;
+}
+	.wbtn {
+	float: left;
+	overflow: hidden;
+	background: lightgray;
+	border: none;
+	border-radius: 10px;
+	color: royalblue;
+	font-family: arial black;
 }
 
 }
