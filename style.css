@@ -1,5 +1,5 @@
 
--webkit-keyframes tracking-in-expand-fwd-bottom {
+tracking-in-expand-fwd-bottom {
   0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px) translateY(500px);
@@ -115,6 +115,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 }
 .cityfield{
 	float: left;
+	width: 70%;
 	overflow: hidden;
 	margin-top: 12px;
 	margin-right: 10px;
@@ -130,6 +131,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 
 .weatherimg{
 	margin-top: 5px;
+	width :305;
 	margin-left: 20px;
 	height: 100px;
 	float: left;
@@ -181,11 +183,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	padding: 20px;
 }
 
-<<<<<<< HEAD
 @media(min-width:300px) and (max-width:480px)
-=======
-@media(min-width:300px)and(max-width:480px)
->>>>>>> c2d7f5f24dde279a086c3c7d95ca24737fc2ecf1
 {
 	.maindiv{
 		height: 100Vh;
@@ -193,13 +191,8 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	}
 
 	.weatherdiv{
-<<<<<<< HEAD
 		height: 90vh;
 		width: 90vw;
-=======
-		height: 600px;
-		width: 340px;
->>>>>>> c2d7f5f24dde279a086c3c7d95ca24737fc2ecf1
 	}
 
 	.wtbl{
@@ -221,8 +214,8 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	border-radius: 20px;
 }
 	.wimg{
-	height: 30px;
-	width: 40px;
+	height: 20px;
+	width: 20px;
 }
 	.wbtn {
 	float: left;
@@ -233,8 +226,6 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 	color: royalblue;
 	font-family: arial black;
 }
-
-<<<<<<< HEAD
 .weatherimg{
 	margin-top: 5px;
 	margin-left: 20px;
@@ -244,7 +235,7 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 }
 
 .cityfield{
-	width: 80%;
+	width: 70%;
 	float: left;
 	overflow: hidden;
 	margin-top: 12px;
@@ -256,6 +247,3 @@ webkit-keyframes slide-in-elliptic-top-fwd {
 
 
 }
-=======
-}
->>>>>>> c2d7f5f24dde279a086c3c7d95ca24737fc2ecf1
